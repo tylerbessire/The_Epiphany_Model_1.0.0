@@ -21,10 +21,8 @@ Artificial general intelligence research is increasingly grappling with the ques
 If you use or reference this work, please cite:
 
 ```
-Bessire, T. (2025). The Epiphany Model: A Pathway to Self-Aware AI. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+Bessire, T. (2025). The Epiphany Model: A Pathway to Self-Aware AI. Zenodo. https://doi.org/10.5281/zenodo.15324260
 ```
-
-Replace XXXXXXX with the DOI number provided by Zenodo after publication.
 
 ## Author
 
@@ -36,7 +34,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 ## Related Resources
 
-- [Paper on Zenodo](https://zenodo.org/records/XXXXXXX) (Replace with actual link once published)
+- [Paper on Zenodo](https://zenodo.org/records/15324260)
 - [arXiv Submission](https://arxiv.org/abs/XXXX.XXXXX) (Replace with actual link once published)
 
 ## Contact
