@@ -1,0 +1,98 @@
+# Git attributes for academic repository
+
+# PDFs - treat as binary, don't diff
+*.pdf binary
+*.PDF binary
+
+# Academic document formats - treat as binary
+*.doc binary
+*.docx binary
+*.odt binary
+*.rtf binary
+
+# Data files - treat as binary
+*.xlsx binary
+*.xls binary
+*.ods binary
+*.rda binary
+*.rds binary
+*.RData binary
+*.pkl binary
+*.pickle binary
+*.h5 binary
+*.hdf5 binary
+*.mat binary
+*.sav binary
+
+# Image files - treat as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.tiff binary
+*.svg binary
+*.eps binary
+
+# Text-based academic formats - use text diff
+*.tex text
+*.bib text
+*.md text
+*.txt text
+*.csv text
+*.tsv text
+*.json text
+*.xml text
+*.yaml text
+*.yml text
+
+# R and Python scripts
+*.R text
+*.r text
+*.py text
+*.ipynb text
+
+# Configuration files
+*.cff text
+.gitignore text
+.gitattributes text
+
+# Line ending normalization for text files
+* text=auto
+
+# Markdown files - normalize to LF
+*.md text eol=lf
+*.markdown text eol=lf
+
+# YAML/JSON files - normalize to LF
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+
+# Citation and bibliography files - normalize to LF
+*.bib text eol=lf
+*.cff text eol=lf
+
+# Jupyter notebooks - normalize to LF and treat as text
+*.ipynb text eol=lf
+
+# Archive files - treat as binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.tgz binary
+*.7z binary
+
+# Linguist overrides for GitHub language statistics
+*.md linguist-documentation
+*.txt linguist-documentation
+CHANGELOG.md linguist-documentation
+CONTRIBUTING.md linguist-documentation
+CODE_OF_CONDUCT.md linguist-documentation
+LICENSE linguist-documentation
+
+# Don't count certain files in language statistics
+*.pdf linguist-generated=false linguist-documentation
+supplementary/* linguist-documentation
+references/* linguist-documentation
+assets/* linguist-documentation

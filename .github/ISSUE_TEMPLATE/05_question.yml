@@ -1,0 +1,71 @@
+name: ❓ Question
+description: Ask specific questions about the paper (for broader discussions, use Discussions tab)
+title: "[QUESTION]: "
+labels: ["question"]
+assignees:
+  - tylerbessire
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask specific questions about the paper's content, methodology, or implications.
+
+        **Note**: For open-ended theoretical discussions, brainstorming, or general discourse, please use the [Discussions](https://github.com/tylerbessire/The_Epiphany_Model_1.0.0/discussions) tab instead.
+
+  - type: dropdown
+    id: question-category
+    attributes:
+      label: Question Category
+      description: What is your question about?
+      options:
+        - Understanding a specific concept or argument
+        - Clarification on methodology or framework
+        - Implications or applications
+        - Related work or citations
+        - Technical implementation
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Relevant Section
+      description: Which part of the paper is your question about?
+      placeholder: "e.g., Page 7, Section 3.1 on Global Workspace Theory"
+    validations:
+      required: false
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: Ask your question clearly and specifically
+      placeholder: "What would you like to know? Be as specific as possible."
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context & What You've Tried
+      description: Provide context for your question and what you've already explored
+      placeholder: |
+        - What is your background or perspective?
+        - What have you already tried to understand this?
+        - Why is this question important to you?
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please confirm the following
+      options:
+        - label: I have read the relevant section of the paper
+          required: true
+        - label: I have searched existing issues and discussions to avoid duplication
+          required: true
+        - label: This is a specific question, not a general discussion topic (those belong in Discussions)
+          required: true

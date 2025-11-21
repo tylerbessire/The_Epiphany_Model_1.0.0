@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discussion Forum
+    url: https://github.com/tylerbessire/The_Epiphany_Model_1.0.0/discussions
+    about: For theoretical questions, brainstorming, and general discourse, please use Discussions
+  - name: 📧 Direct Contact
+    url: https://www.linkedin.com/in/tylerbessire
+    about: For private inquiries or collaboration proposals, contact the author directly
+  - name: 📚 Zenodo Repository
+    url: https://zenodo.org/records/15324260
+    about: Access the permanent archived version of the paper
