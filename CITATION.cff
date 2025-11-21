@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite it as below."
+authors:
+  - family-names: Bessire
+    given-names: Tyler
+    orcid: https://orcid.org/0009-0005-2494-6604
+title: "The Epiphany Model: A Pathway to Self-Aware AI"
+version: 1.0.0
+doi: 10.5281/zenodo.15324260
+date-released: 2025-05-04
+url: "https://github.com/tylerbessire/The_Epiphany_Model_1.0.0"
+repository-code: "https://github.com/tylerbessire/The_Epiphany_Model_1.0.0"
+keywords:
+  - artificial intelligence
+  - consciousness
+  - machine learning
+  - AI alignment
+  - emergent behavior
+  - self-awareness
+  - large language models
+  - cognitive science
+  - machine consciousness
+  - AI theory
+license: CC0-1.0
