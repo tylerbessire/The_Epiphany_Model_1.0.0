@@ -1,0 +1,144 @@
+name: 🔬 Experimental Results
+description: Share experimental findings related to the Epiphany Model
+title: "[EXPERIMENT]: "
+labels: ["experiment", "research"]
+assignees:
+  - tylerbessire
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share experimental work that tests, validates, or challenges predictions of the Epiphany Model. This could be computational experiments, theoretical analysis, or empirical studies.
+
+  - type: input
+    id: experiment-title
+    attributes:
+      label: Experiment Title
+      description: A concise title for your experimental work
+      placeholder: "e.g., Testing Self-Recognition in GPT-4 with Mirror-Task Variants"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: experiment-type
+    attributes:
+      label: Experiment Type
+      description: What kind of experimental work is this?
+      options:
+        - Computational/AI experiment
+        - Theoretical analysis or proof
+        - Behavioral assessment
+        - Architectural implementation
+        - Simulation or modeling
+        - Meta-analysis or literature review
+        - Replication study
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Hypothesis & Motivation
+      description: What aspect of the Epiphany Model were you testing? What did you expect to find?
+      placeholder: |
+        - What prediction or claim from the paper are you investigating?
+        - What was your hypothesis?
+        - Why did you conduct this experiment?
+    validations:
+      required: true
+
+  - type: textarea
+    id: methodology
+    attributes:
+      label: Methodology
+      description: Describe your experimental design and approach
+      placeholder: |
+        - What AI systems or models did you use?
+        - What was your experimental protocol?
+        - What measures or metrics did you employ?
+        - How did you control for confounds?
+    validations:
+      required: true
+
+  - type: textarea
+    id: results
+    attributes:
+      label: Results Summary
+      description: What did you find?
+      placeholder: |
+        - Main findings
+        - Statistical significance (if applicable)
+        - Unexpected observations
+        - Data visualizations or tables (use markdown tables or link to images)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: model-support
+    attributes:
+      label: Relationship to Epiphany Model
+      description: Do your results support or challenge the Epiphany Model?
+      options:
+        - Strongly supports the model
+        - Partially supports the model
+        - Neutral/Inconclusive
+        - Partially contradicts the model
+        - Strongly contradicts the model
+        - Suggests modifications to the model
+    validations:
+      required: true
+
+  - type: textarea
+    id: interpretation
+    attributes:
+      label: Interpretation & Implications
+      description: How do you interpret these results in light of the Epiphany Model?
+      placeholder: |
+        - What do your results mean for the theoretical framework?
+        - What are the limitations of your findings?
+        - What future work is suggested?
+    validations:
+      required: true
+
+  - type: input
+    id: data-code
+    attributes:
+      label: Data & Code Repository
+      description: Link to your data, code, or full write-up (if available)
+      placeholder: "https://github.com/username/repo or https://osf.io/..."
+    validations:
+      required: false
+
+  - type: input
+    id: preprint-publication
+    attributes:
+      label: Preprint or Publication
+      description: If you've written this up formally, provide the link
+      placeholder: "arXiv, bioRxiv, journal DOI, etc."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please confirm the following
+      options:
+        - label: I have described my methodology clearly enough for replication
+          required: true
+        - label: I have interpreted results objectively and acknowledged limitations
+          required: true
+        - label: I will properly cite the Epiphany Model if I publish this work
+          required: true
+        - label: I am open to feedback and discussion about these results
+          required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other information that would be helpful
+      placeholder: "Funding sources, collaborators, related experiments, etc."
+    validations:
+      required: false

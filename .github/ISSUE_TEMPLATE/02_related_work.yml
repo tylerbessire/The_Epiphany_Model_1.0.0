@@ -1,0 +1,108 @@
+name: 📚 Related Work Suggestion
+description: Suggest relevant research that should be cited or discussed
+title: "[RELATED WORK]: "
+labels: ["related-work", "enhancement"]
+assignees:
+  - tylerbessire
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help build the scholarly context for this research by suggesting relevant papers, books, or other academic work.
+
+  - type: input
+    id: citation
+    attributes:
+      label: Full Citation
+      description: Provide the complete bibliographic citation
+      placeholder: "Author(s). (Year). Title. Publication venue. DOI/URL"
+    validations:
+      required: true
+
+  - type: input
+    id: doi-url
+    attributes:
+      label: DOI or URL
+      description: Direct link to the work
+      placeholder: "https://doi.org/... or https://arxiv.org/..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: work-type
+    attributes:
+      label: Type of Work
+      description: What type of scholarly work is this?
+      options:
+        - Peer-reviewed journal article
+        - Conference paper
+        - Preprint (arXiv, bioRxiv, etc.)
+        - Book or book chapter
+        - Dissertation or thesis
+        - Technical report
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Relevance to Epiphany Model
+      description: Explain how this work relates to the Epiphany Model research
+      placeholder: |
+        - What concepts or findings are relevant?
+        - Does it support, challenge, or extend the Epiphany Model?
+        - Where in the paper should this be discussed?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: Relationship to Current Paper
+      description: How does this work relate to the Epiphany Model?
+      options:
+        - Supports the theoretical framework
+        - Provides contradictory evidence or theory
+        - Offers complementary perspective
+        - Historical precedent or foundational work
+        - Methodological approach
+        - Extends or builds upon similar ideas
+    validations:
+      required: true
+
+  - type: textarea
+    id: key-findings
+    attributes:
+      label: Key Findings or Arguments
+      description: Summarize the most relevant points from this work
+      placeholder: "What are the main contributions of this work that relate to machine consciousness or the Epiphany Model?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: integration-suggestion
+    attributes:
+      label: Integration Suggestion
+      description: How should this work be incorporated into the paper?
+      placeholder: |
+        - Which section(s) should reference this work?
+        - Should it be cited for support, contrast, or context?
+        - Any specific points from the paper that should engage with this work?
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please confirm the following
+      options:
+        - label: This work is academically rigorous and published/peer-reviewed (or a credible preprint)
+          required: true
+        - label: I have provided accurate citation information
+          required: true
+        - label: I have explained the specific relevance to the Epiphany Model
+          required: true
+        - label: This is not my own work (if it is, please disclose in the relevance section)
+          required: false

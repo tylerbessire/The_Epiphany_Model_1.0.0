@@ -1,0 +1,123 @@
+name: 💭 Theoretical Feedback
+description: Provide substantive theoretical critique or enhancement suggestions
+title: "[THEORY]: "
+labels: ["theory", "enhancement"]
+assignees:
+  - tylerbessire
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Offer constructive theoretical feedback on the Epiphany Model framework. This is for substantial conceptual critiques or enhancements, not general questions (use Discussions for that).
+
+  - type: dropdown
+    id: feedback-type
+    attributes:
+      label: Feedback Type
+      description: What kind of theoretical feedback are you providing?
+      options:
+        - Critique of core argument
+        - Alternative theoretical framework
+        - Enhancement to existing framework
+        - Clarification needed
+        - Philosophical concern
+        - Methodological improvement
+        - Scope limitation
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: relevant-section
+    attributes:
+      label: Relevant Section of Paper
+      description: Which part of the paper does this feedback address?
+      placeholder: "e.g., Section 3.2 on architectural prerequisites"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-position
+    attributes:
+      label: Current Position in Paper
+      description: Summarize what the paper currently argues on this point
+      placeholder: "Briefly state the claim or argument you're addressing to ensure we're on the same page"
+    validations:
+      required: true
+
+  - type: textarea
+    id: feedback-details
+    attributes:
+      label: Your Feedback
+      description: Provide your theoretical critique, suggestion, or alternative perspective
+      placeholder: |
+        - What is problematic, unclear, or could be improved?
+        - What alternative do you suggest?
+        - What evidence or reasoning supports your position?
+    validations:
+      required: true
+
+  - type: textarea
+    id: theoretical-grounding
+    attributes:
+      label: Theoretical Grounding
+      description: What theoretical traditions, frameworks, or prior work supports your position?
+      placeholder: |
+        - Cite relevant theories (e.g., IIT, GWT, HOT, etc.)
+        - Reference supporting literature
+        - Draw on philosophical traditions
+    validations:
+      required: true
+
+  - type: textarea
+    id: implications
+    attributes:
+      label: Implications
+      description: If your suggestion were adopted, what would change in the paper?
+      placeholder: |
+        - How would this affect the main argument?
+        - What predictions would change?
+        - What additional work would be needed?
+    validations:
+      required: false
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Significance of This Feedback
+      description: How central is this issue to the paper's argument?
+      options:
+        - Minor clarification needed
+        - Moderate improvement suggested
+        - Significant theoretical concern
+        - Fundamental challenge to core thesis
+    validations:
+      required: true
+
+  - type: textarea
+    id: resolution-suggestion
+    attributes:
+      label: Suggested Resolution
+      description: How do you think this issue should be addressed?
+      placeholder: |
+        - Revise specific claims?
+        - Add additional theoretical discussion?
+        - Acknowledge limitation?
+        - Modify framework?
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please confirm the following
+      options:
+        - label: I have read the paper thoroughly and understand the full argument
+          required: true
+        - label: My feedback is constructive and aimed at improving the research
+          required: true
+        - label: I have provided theoretical grounding for my position
+          required: true
+        - label: I am open to scholarly discussion and counterarguments
+          required: true

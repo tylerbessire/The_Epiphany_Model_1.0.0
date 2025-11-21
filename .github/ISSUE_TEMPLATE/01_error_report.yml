@@ -1,0 +1,90 @@
+name: 🐛 Error Report
+description: Report errors, typos, or inaccuracies in the paper
+title: "[ERROR]: "
+labels: ["bug", "needs-review"]
+assignees:
+  - tylerbessire
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve the accuracy of this research. Please provide details about the error you've found.
+
+  - type: dropdown
+    id: error-type
+    attributes:
+      label: Error Type
+      description: What kind of error did you find?
+      options:
+        - Typographical error (spelling, grammar, formatting)
+        - Citation error (incorrect reference, missing citation)
+        - Logical inconsistency or contradiction
+        - Factual inaccuracy
+        - Mathematical or computational error
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location in Paper
+      description: Page number, section, paragraph, or line reference
+      placeholder: "e.g., Page 5, Section 2.1, third paragraph"
+    validations:
+      required: true
+
+  - type: textarea
+    id: error-description
+    attributes:
+      label: Error Description
+      description: Describe the error in detail
+      placeholder: "Clearly explain what is incorrect and why"
+    validations:
+      required: true
+
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested Correction
+      description: If applicable, provide the correct information
+      placeholder: "How should this be corrected? Include sources if relevant."
+    validations:
+      required: false
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Supporting References
+      description: If your correction requires citations, provide them here
+      placeholder: |
+        - Author, A. (Year). Title. Journal, Volume(Issue), pages.
+        - DOI or URL
+    validations:
+      required: false
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How significant is this error?
+      options:
+        - Minor (typo, formatting issue)
+        - Moderate (incorrect citation, unclear phrasing)
+        - Major (logical error, factual inaccuracy affecting conclusions)
+        - Critical (fundamental flaw in argumentation)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please confirm the following
+      options:
+        - label: I have searched existing issues to avoid duplication
+          required: true
+        - label: I have read the paper thoroughly and understand the context
+          required: true
+        - label: This is an error in the paper itself, not a theoretical disagreement (use Discussions for that)
+          required: true
