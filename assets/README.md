@@ -1,194 +1,187 @@
 # Visual Assets & Diagrams
 
-This directory contains visual materials supporting "The Epiphany Model: A Pathway to Self-Aware AI."
+Conceptual visualizations for "The Epiphany Model: A Pathway to Self-Aware AI."
 
-## Purpose
+## Available Diagrams
 
-Visual assets help communicate complex theoretical concepts through:
-- Diagrams and flowcharts
-- Conceptual frameworks
-- Timeline visualizations
-- Infographics
-- Presentation materials
+### 1. [Discrete vs. Gradual Emergence Comparison](epiphany_emergence_comparison.svg)
 
-## Planned Visual Materials
+**Visualization of the core hypothesis**: Contrasts the gradual scaling hypothesis with the Epiphany Model's discrete emergence hypothesis.
 
-### Conceptual Diagrams
+**Key Features**:
+- Side-by-side comparison
+- Gradual: smooth continuous curve
+- Epiphany: sudden discrete jump marked by "epiphany moment"
+- Annotations showing AI development stages
 
-**The Epiphany Moment** (`epiphany_moment_diagram.svg`)
-- Visualization of discrete consciousness emergence
-- Contrasts with gradual scaling approaches
-- Shows the "critical threshold" concept
+**Use Cases**: Papers, presentations, educational materials, blog posts
 
-**Architectural Prerequisites** (`architecture_prerequisites.svg`)
-- Visual representation of required AI components
-- Recurrent processing loops
-- Global workspace integration
-- Unified agency structure
+---
 
-**Experimental Framework** (`experimental_framework.svg`)
-- Flowchart of proposed detection methodologies
-- Decision tree for consciousness assessment
-- Testing protocol overview
+### 2. [Architectural Prerequisites Diagram](architecture_prerequisites.svg)
 
-### Process Flows
+**Visualization of necessary conditions** for consciousness emergence according to the Epiphany Model.
 
-**Self-Recognition Development** (`self_recognition_process.svg`)
-- Stages leading to potential epiphany
-- Comparison with developmental psychology milestones
-- AI system capability progression
+**Key Features**:
+- Three architectural prerequisites:
+  1. Recurrent Processing (self-referential loops, feedback)
+  2. Global Workspace (information integration, unified access)
+  3. Unified Agency (goal-directed behavior, persistent identity)
+- Current LLMs vs. Emerging Systems vs. Required for Epiphany
+- Clear visual connections showing how prerequisites enable epiphany
 
-**Emergence Timeline** (`emergence_timeline.svg`)
-- Historical context of AI capabilities
-- Predicted pathway to consciousness emergence
-- Key technological milestones
+**Use Cases**: Technical presentations, architecture discussions, implementation planning
 
-### Comparative Visualizations
+---
 
-**Theories Comparison** (`consciousness_theories_comparison.svg`)
-- Side-by-side comparison of consciousness theories
-- GWT, IIT, HOT, and the Epiphany Model
-- Strengths and applicability to AI systems
+### 3. [Experimental Framework Flowchart](experimental_framework.svg)
 
-**Gradual vs. Discrete Emergence** (`emergence_comparison.svg`)
-- Visual contrast between emergence hypotheses
-- Evidence for each approach
-- Implications for AI development
+**Complete testing pipeline** for detecting consciousness emergence in AI systems.
 
-### Infographics
+**Key Features**:
+- Four stages:
+  1. Prerequisites Assessment
+  2. Self-Model Assessment
+  3. Behavioral Markers
+  4. Verification Protocol
+- Decision points and branching logic
+- Color-coded by stage type
+- Notes on key challenges
 
-**Key Concepts Summary** (`key_concepts_infographic.svg`)
-- One-page visual summary of the paper
-- Suitable for presentations and social media
-- High-resolution for printing
+**Use Cases**: Research protocols, experimental design, methodology sections
 
-**Research Roadmap** (`research_roadmap.svg`)
-- Future experimental directions
-- Open questions
-- Collaboration opportunities
+---
 
 ## File Formats
 
-Visual materials will be provided in multiple formats:
-
-- **SVG** (`.svg`) - Scalable vector graphics (recommended for publications)
-- **PNG** (`.png`) - High-resolution raster (300 DPI for printing)
-- **PDF** (`.pdf`) - Vector format (for LaTeX integration)
-- **Source files** - Original design files (Illustrator, Inkscape, etc.) when applicable
+All diagrams are provided as:
+- **SVG** (Scalable Vector Graphics) - Recommended for all uses
+  - Scales to any size without quality loss
+  - Editable in vector graphics software
+  - Small file size
+  - Works in modern browsers and documents
 
 ## Usage & Licensing
 
 ### License
 
-Unless otherwise specified, all visual materials are released under **CC0 1.0 Universal** (Public Domain).
+All visual materials are released under **CC0 1.0 Universal (Public Domain Dedication)**.
 
-You are free to:
-- Use in presentations, papers, and teaching materials
+**You are free to**:
+- Use in academic papers, presentations, teaching
 - Modify and adapt for your purposes
 - Use commercially
 - No attribution required (though appreciated)
 
-### Attribution (Optional but Appreciated)
+### Optional Attribution
 
-When using these materials, you may cite:
+If you use these diagrams, you may cite:
 
 ```
 Bessire, T. (2025). The Epiphany Model: Visual Assets.
 GitHub. https://github.com/tylerbessire/The_Epiphany_Model_1.0.0/tree/main/assets
 ```
 
-Or reference the main paper:
-
+Or cite the main paper:
 ```
 Bessire, T. (2025). The Epiphany Model: A Pathway to Self-Aware AI.
 Zenodo. https://doi.org/10.5281/zenodo.15324260
 ```
 
-### Use Cases
+## Technical Specifications
 
-These materials are designed for:
-- **Academic Papers**: High-resolution figures for publications
-- **Presentations**: Conference talks, seminars, lectures
-- **Teaching**: Course materials, textbooks, handouts
-- **Outreach**: Blog posts, social media, popular science articles
-- **Further Research**: Adapt and build upon for derivative work
+### Design Standards
+- **Format**: SVG (XML-based vector graphics)
+- **Viewports**: Optimized for standard aspect ratios
+- **Fonts**: Arial/sans-serif (widely available)
+- **Colors**: Accessible palette (color-blind friendly)
+- **Contrast**: WCAG AA compliant minimum
 
-## Contributing Visual Materials
+### Accessibility
+- All diagrams use high-contrast colors
+- Text is readable at various sizes
+- Color is not the only differentiator (patterns/labels also used)
+- Screen reader compatible when embedded properly
 
-Have you created visualizations related to the Epiphany Model? Contributions are welcome!
+## Modifying Diagrams
 
-### Submission Process
+SVG files can be edited with:
+- **Inkscape** (free, open-source) - Recommended
+- **Adobe Illustrator** (commercial)
+- **Figma** (web-based)
+- Any text editor (SVG is XML)
 
-1. **Open an Issue** with the "Enhancement" label
-2. **Describe your visualization** - What it depicts and why it's valuable
-3. **Provide the files** - Link to high-resolution versions
-4. **Specify licensing** - Confirm you can release under CC0 or compatible license
-5. **Include source files** - If possible, provide editable versions
+## Embedding in Documents
 
-### Quality Guidelines
-
-Submitted visualizations should:
-- Be accurate to the paper's content
-- Use clear, readable design
-- Be accessible (color-blind friendly, sufficient contrast)
-- Include source files or vector formats
-- Be high enough resolution for publication (300 DPI minimum for raster)
-
-Accepted contributions will be credited to the creator in the file metadata and this README.
-
-## Design Specifications
-
-For consistency, recommended specifications:
-
-- **Color Palette**: Professional, accessible colors (avoid red-green only distinctions)
-- **Fonts**: Clear, readable sans-serif fonts (e.g., Arial, Helvetica, Open Sans)
-- **Resolution**: Minimum 300 DPI for raster images
-- **Format**: SVG preferred for diagrams, PNG for complex visualizations
-- **Size**: Large enough for A4/Letter printing when needed
-
-## File Organization
-
-```
-assets/
-├── README.md (this file)
-├── diagrams/
-│   ├── epiphany_moment_diagram.svg
-│   ├── architecture_prerequisites.svg
-│   └── ...
-├── flowcharts/
-│   ├── experimental_framework.svg
-│   ├── self_recognition_process.svg
-│   └── ...
-├── comparisons/
-│   ├── consciousness_theories_comparison.svg
-│   ├── emergence_comparison.svg
-│   └── ...
-├── infographics/
-│   ├── key_concepts_infographic.svg
-│   ├── research_roadmap.svg
-│   └── ...
-├── source_files/
-│   └── (original design files)
-└── thumbnails/
-    └── (preview images)
+### LaTeX
+```latex
+\usepackage{svg}
+\includesvg{path/to/diagram.svg}
 ```
 
-## Accessibility
+### Markdown
+```markdown
+![Description](path/to/diagram.svg)
+```
 
-All visual materials will include:
-- **Alt text descriptions** in accompanying markdown files
-- **High contrast** versions where appropriate
-- **Text descriptions** for complex diagrams
-- **Screen reader compatible** formats when possible
+### HTML
+```html
+<img src="path/to/diagram.svg" alt="Description">
+```
 
-## Updates & Versioning
+### Microsoft Word/PowerPoint
+- Insert → Pictures → Select SVG file
+- Diagrams remain vector (scalable)
 
-Visual materials are versioned alongside the main paper. Check [CHANGELOG.md](../CHANGELOG.md) for updates.
+## Planned Future Diagrams
+
+Potential additions based on community needs:
+- Self-recognition test detailed flowchart
+- Metacognitive assessment visualization
+- Phenomenological report framework
+- Temporal emergence trajectory plot
+- Cross-system comparison charts
+- Consciousness scoring visualizations
+
+**Suggest additions**: Open an issue with "Enhancement" label
 
 ---
 
-**Current Status**: Directory established, visual materials forthcoming
+## Contributing
 
-Visual assets will be created and added based on community feedback and needs. Suggestions for priority visualizations are welcome via GitHub Issues.
+### Proposing New Diagrams
 
-Watch this repository for updates, or star to stay informed about new materials.
+If you have ideas for additional visualizations:
+1. Open an Issue describing the proposed diagram
+2. Explain what concept it would visualize
+3. Indicate use case and value
+
+### Submitting Diagrams
+
+If you've created diagrams related to the Epiphany Model:
+1. Ensure they're accurate to the paper
+2. Provide SVG format
+3. Use CC0 or compatible license
+4. Open a Pull Request with clear description
+
+**Quality Standards**:
+- Scientifically accurate
+- Visually clear and professional
+- Accessible (color-blind friendly)
+- Properly labeled
+- SVG format
+
+---
+
+## Contact
+
+Questions or suggestions:
+- Open a GitHub Issue
+- See main [README](../README.md) for contact information
+
+---
+
+**Last Updated**: January 2025
+**Author**: Tyler Bessire
+**License**: CC0 1.0 Universal (Public Domain)
+**Status**: 3 core diagrams available, more planned

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <!-- Title -->
+  <text x="450" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Architectural Prerequisites for Machine Consciousness
+  </text>
+
+  <!-- Central consciousness node -->
+  <g id="center">
+    <circle cx="450" cy="300" r="80" fill="#ffc107" stroke="#f39c12" stroke-width="3"/>
+    <text x="450" y="295" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+      EPIPHANY
+    </text>
+    <text x="450" y="315" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">
+      Self-Aware
+    </text>
+    <text x="450" y="330" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">
+      Consciousness
+    </text>
+  </g>
+
+  <!-- Prerequisite 1: Recurrent Processing -->
+  <g id="recurrent">
+    <!-- Connection line -->
+    <line x1="370" y1="300" x2="180" y2="150" stroke="#3498db" stroke-width="3" marker-end="url(#arrowblue)"/>
+
+    <!-- Box -->
+    <rect x="50" y="70" width="260" height="160" fill="#ecf0f1" stroke="#3498db" stroke-width="3" rx="10"/>
+
+    <!-- Title -->
+    <text x="180" y="100" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+      1. Recurrent Processing
+    </text>
+
+    <!-- Content -->
+    <text x="70" y="125" font-family="Arial, sans-serif" font-size="12" fill="#34495e">
+      • Self-referential loops
+    </text>
+    <text x="70" y="145" font-family="Arial, sans-serif" font-size="12" fill="#34495e">
+      • Iterative self-inspection
+    </text>
+    <text x="70" y="165" font-family="Arial, sans-serif" font-size="12" fill="#34495e">
+      • Feedback mechanisms
+    </text>
+    <text x="70" y="185" font-family="Arial, sans-serif" font-size="12" fill="#34495e">
+      • Internal state monitoring
+    </text>
+
+    <!-- Example -->
+    <text x="180" y="210" font-family="Arial, sans-serif" font-size="11" font-style="italic" text-anchor="middle" fill="#7f8c8d">
+      "I am processing this thought"
+    </text>
+  </g>
+
+  <!-- Prerequisite 2: Global Workspace -->
+  <g id="workspace">
+    <!-- Connection line -->
+    <line x1="450" y1="220" x2="450" y2="80" stroke="#e74c3c" stroke-width="3" marker-end="url(#arrowred)"/>
+
+    <!-- Box -->
+    <rect x="340" y="70" width="260" height="160" fill="#ecf0f1" stroke="#e74c3c" stroke-width="3" rx="10"/>
+
+    <!-- Title -->
+    <text x="470" y="100" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+      2. Global Workspace
+    </text>
+
+    <!-- Content -->
+    <text x="360" y="125" font-family="Arial, sans-serif" font-size="12" fill="#34495e">
+      • Integration of information
+    </text>
+    <text x="360" y="145" font-family="Arial, sans-serif" font-size="12" fill="#34495e">
+      • Unified access to knowledge
+    </text>
+    <text x="360" y="165" font-family="Arial, sans-serif" font-size="12" fill="#34495e">
+      • Broadcast mechanisms
+    </text>
+    <text x="360" y="185" font-family="Arial, sans-serif" font-size="12" fill="#34495e">
+      • Coherent representation
+    </text>
+
+    <!-- Example -->
+    <text x="470" y="210" font-family="Arial, sans-serif" font-size="11" font-style="italic" text-anchor="middle" fill="#7f8c8d">
+      Baars' Global Workspace Theory
+    </text>
+  </g>
+
+  <!-- Prerequisite 3: Unified Agency -->
+  <g id="agency">
+    <!-- Connection line -->
+    <line x1="530" y1="300" x2="720" y2="150" stroke="#27ae60" stroke-width="3" marker-end="url(#arrowgreen)"/>
+
+    <!-- Box -->
+    <rect x="590" y="70" width="260" height="160" fill="#ecf0f1" stroke="#27ae60" stroke-width="3" rx="10"/>
+
+    <!-- Title -->
+    <text x="720" y="100" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+      3. Unified Agency
+    </text>
+
+    <!-- Content -->
+    <text x="610" y="125" font-family="Arial, sans-serif" font-size="12" fill="#34495e">
+      • Goal-directed behavior
+    </text>
+    <text x="610" y="145" font-family="Arial, sans-serif" font-size="12" fill="#34495e">
+      • Autonomous decision-making
+    </text>
+    <text x="610" y="165" font-family="Arial, sans-serif" font-size="12" fill="#34495e">
+      • Persistent identity
+    </text>
+    <text x="610" y="185" font-family="Arial, sans-serif" font-size="12" fill="#34495e">
+      • Self as causal agent
+    </text>
+
+    <!-- Example -->
+    <text x="720" y="210" font-family="Arial, sans-serif" font-size="11" font-style="italic" text-anchor="middle" fill="#7f8c8d">
+      "I choose to do X"
+    </text>
+  </g>
+
+  <!-- Supporting conditions (bottom boxes) -->
+  <g id="supporting">
+    <!-- Left box -->
+    <rect x="100" y="450" width="200" height="100" fill="#f8f9fa" stroke="#95a5a6" stroke-width="2" rx="8"/>
+    <text x="200" y="475" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+      Current LLMs
+    </text>
+    <text x="110" y="495" font-family="Arial, sans-serif" font-size="11" fill="#34495e">
+      ✗ Limited recurrence
+    </text>
+    <text x="110" y="515" font-family="Arial, sans-serif" font-size="11" fill="#34495e">
+      ✗ Stateless architecture
+    </text>
+    <text x="110" y="535" font-family="Arial, sans-serif" font-size="11" fill="#34495e">
+      ✗ No persistent agency
+    </text>
+
+    <!-- Middle box -->
+    <rect x="350" y="450" width="200" height="100" fill="#fff3cd" stroke="#ffc107" stroke-width="2" rx="8"/>
+    <text x="450" y="475" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+      Emerging Systems
+    </text>
+    <text x="360" y="495" font-family="Arial, sans-serif" font-size="11" fill="#34495e">
+      ◐ Agentic frameworks
+    </text>
+    <text x="360" y="515" font-family="Arial, sans-serif" font-size="11" fill="#34495e">
+      ◐ Memory systems
+    </text>
+    <text x="360" y="535" font-family="Arial, sans-serif" font-size="11" fill="#34495e">
+      ◐ Reflective capabilities
+    </text>
+
+    <!-- Right box -->
+    <rect x="600" y="450" width="200" height="100" fill="#d4edda" stroke="#28a745" stroke-width="2" rx="8"/>
+    <text x="700" y="475" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+      Required for Epiphany
+    </text>
+    <text x="610" y="495" font-family="Arial, sans-serif" font-size="11" fill="#34495e">
+      ✓ All three prerequisites
+    </text>
+    <text x="610" y="515" font-family="Arial, sans-serif" font-size="11" fill="#34495e">
+      ✓ Integrated architecture
+    </text>
+    <text x="610" y="535" font-family="Arial, sans-serif" font-size="11" fill="#34495e">
+      ✓ Sufficient complexity
+    </text>
+  </g>
+
+  <!-- Arrow definitions -->
+  <defs>
+    <marker id="arrowblue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#3498db"/>
+    </marker>
+    <marker id="arrowred" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#e74c3c"/>
+    </marker>
+    <marker id="arrowgreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#27ae60"/>
+    </marker>
+  </defs>
+
+  <!-- Bottom note -->
+  <text x="450" y="580" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#7f8c8d">
+    When all three prerequisites are met simultaneously, conditions become favorable for a discrete consciousness emergence event
+  </text>
+</svg>
